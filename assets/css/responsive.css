@@ -1,0 +1,258 @@
+@charset "utf-8";
+
+@media screen and (max-width: 800px) {
+
+/* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
+/* header */
+
+/* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
+/* header */
+
+header {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    box-shadow: 0 2px 5px #333;
+}
+
+.header_link {
+    position: static;
+}
+
+.nav_list {
+    margin-top: 5em;
+    gap: 2.5em;
+    padding-left: clamp(1em, 5vw, 3em);
+    text-align: center;
+}
+
+.list_item {
+    font-size: 20px;
+}
+
+/* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
+/* home */
+
+/* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
+/* home_contents-list */
+
+.home_link {
+    font-size: 20px;
+}
+
+/* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
+/* profile */
+
+.profile_head {
+    width: 40%;
+}
+
+/* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
+/* 資格一覧 */
+
+.home_intro {
+    width: 30%;
+}
+
+.hone_wrapper {
+    width: 80%;
+}
+
+.hone_contents-box {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+/* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
+/* home_content1 */
+
+.home_movie-contents {
+    display: flex;
+    flex-direction: column;
+}
+
+.home_movie-head {
+    width: 80%;
+}
+
+.home_movie-grid {
+    display: flex;
+    flex-direction: column;
+}
+
+.home_movie-col1 {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.home_movie-title {
+    font-size: 20px;
+    width: 100%;
+}
+
+.home_movie-contents video {
+    width: 90%;
+    height: auto;
+}
+
+.home_movie-txt {
+    width: 100%;
+    text-align: left;
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 20px;
+    line-height: 2;
+}
+
+/* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
+/* home_content1 */
+
+.status_box {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2em;
+}
+
+.status_txt {
+    width: 50%;
+}
+
+.grid_col5 {
+    display: flex;
+    flex-direction: column;
+}
+
+.col1,
+.col2,
+.col3,
+.col4,
+.col5 {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.col2,
+.col3,
+.col4,
+.col5 {
+    margin-top: 2em;
+}
+
+.tool_image {
+    width: 90%;
+}
+
+
+/* ーーーーーーーーーーーーーーーーーーーー */
+/* WORKS PAGE */
+
+.works_section {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* ーーーーーーーーーーーーーーーーーーーー */
+/* カテゴリー別カラム指定 */
+
+.works_col1,
+.works_col3,
+.works_col4 {
+    grid-template-columns: 1fr;
+    gap: 2em;
+}
+
+/* ーーーーーーーーーーーーーーーーーーーー */
+/* ビデオ */
+
+.works_video {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+/* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
+/* price page */
+
+/* .price_template {} */
+
+.price_template-box {
+    margin: 5em 0;
+    margin-left: 4em;
+}
+
+.price_caption {
+    font-size: 3em;
+}
+
+.price_sub-caption {
+    font-size: 1.5em;
+}
+
+.price_image_box {
+
+}
+
+.price_image {
+    margin-bottom: 4em;
+}
+
+.price_image:last-child {
+    margin-bottom: 8em;
+}
+
+
+/* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
+/* contact */
+
+.contact_sub-txt {
+    width: 80%;
+}
+
+.form {
+    width: 80%;
+}
+
+select,
+.input  {
+    width: 200px;
+    padding: 10px 0;
+}
+
+textarea {
+    width: 200px;
+    height: 100px;
+}
+
+.contact_submit {
+    width: 50%;
+    border-radius: 50px;
+}
+
+/* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
+/* footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+}
+
+.footer_jump-link {
+    position: static;
+}
+
+.footer_list {
+    margin-top: 5em;
+    justify-content: center;
+    padding-left: clamp(1em, 5vw, 3em);
+    gap: 2.5em;
+}
+
+.footer_item {
+    font-size: 12px;
+}
+
+}

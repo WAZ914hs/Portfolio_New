@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT PAGE</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css" media="screen and (max-width: 800px)">
+</head>
+<body>
+    <header>
+        <a href="home.html" class="header_link">Kohei Yoshida</a>
+        <nav>
+            <ul class="nav_list">
+                <li class="list_item"><a class="list_link" href="home.html">HOME</a></li>
+                <li class="list_item"><a class="list_link" href="works.html">WORKS</a></li>
+                <li class="list_item"><a class="list_link" href="price.html">PRICE</a></li>
+                <li class="list_item"><a class="list_link" href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="main">
+        <div class="contact_content">
+            <div class="contact_box">
+                <h1 class="contact_head">Contact Page</h1>
+                <p class="contact_txt">コンタクトページ</p>
+            </div>
+            <p class="contact_sub-txt">
+                当Webサイトのご閲覧・訪問いただきましてありがとうございます。<br>
+                ご依頼内容等を下記のフォームにご記入いただき、内容をご確認の上、送信ください。<br>
+                折り返し当Webサイトの管理人よりご連絡差し上げます。<br>
+                また、<a href="price.html" class="contact_link">PRICE PAGE</a>に価格表を提示しておりますので<br>
+                ご依頼時の参考にご閲覧いただきますようお願い申し上げます。
+            </p>
+        </div>
+    </div>
+    <form action="" id="contact_form" class="form" method="post">
+        <input type="hidden" name="contact_number">
+        <table>
+            <caption>ご依頼フォーム</caption>
+            <tr>
+                <th><label for="select">ご依頼内容</label></th>
+                <td>
+                    <select name="select" id="select">
+                        <option value="0">選択してください</option>
+                        <option value="video editing">動画編集・制作</option>
+                        <option value="modeling">モデリング</option>
+                        <option value="website">ウェブサイト制作</option>
+                        <option value="thumbnail">サムネイル制作</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th><label for="name">お名前</label></th>
+                <td>
+                    <input type="text" name="name" id="name" class="input">
+                </td>
+            </tr>
+            <tr>
+                <th><label for="email">メールアドレス</label></th>
+                <td>
+                    <input type="email" name="email" id="email" class="input">
+                </td>
+            </tr>
+            <tr>
+                <th>性別</th>
+                <td>
+                    <label class="male" for="male">男性<input type="radio" name="gender" id="male" value="男性"></label>
+
+                    <label class="female" for="female">女性<input type="radio" name="gender" id="female" value="女性"></label>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label for="area">
+                        備考<br>
+                        その他
+                    </label>
+                </th>
+                <td>
+                    <textarea name="remarks" id="area"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;">
+                    <button type="submit" class="contact_submit">送信</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
+    <footer>
+        <a href="home.html" class="footer_jump-link">Kohei Yoshida</a>
+        <nav>
+            <ul class="footer_list">
+                <li class="footer_item"><a class="footer_link" href="home.html">HOME</a></li>
+                <li class="footer_item"><a class="footer_link" href="works.html">WORKS</a></li>
+                <li class="footer_item"><a class="footer_link" href="price.html">PRICE</a></li>
+                <li class="footer_item"><a class="footer_link" href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="assets/js/index.js"></script>
+</body>
+</html>
