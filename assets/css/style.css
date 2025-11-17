@@ -102,6 +102,8 @@ header {
 .profile_box {
     background: #ccc;
     padding: 4em 3em;
+    width: 10%;
+    margin: 0 auto;
 }
 
 .name_box {
@@ -119,15 +121,17 @@ header {
 /* status */
 
 .status_box {
-    display: block;
-    background: #ccc;
+    display: flex;
+    flex-direction: column;
+    background: #e0e0e0;
     padding: 2em 0;
     border-top: 2px dotted #333;
     width: 100%;
 }
 
 .status_txt {
-    display: block;
+    display: flex;
+    flex-direction: column;
     background: #555;
     width: 20%;
     margin: 2em auto;
@@ -144,29 +148,38 @@ header {
     grid-template-columns: repeat(3,1fr);
 }
 
-.col1,
-.col2,
-.col3,
-.col4,
-.col5,
-.col6 {
-    display: block;
+.col1,.col2,.col3,.col4,.col5,.col6 {
+    display: flex;
+    flex-direction: column;
     margin: 2em;
     padding: 20px 0;
     width: auto;
     text-align: center;
     background: #fff;
+    border-radius: 20px;
+}
+
+.col1:hover,
+.col2:hover,
+.col3:hover,
+.col4:hover,
+.col5:hover,
+.col6:hover {
+    transform: rotateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, .2);
+    transition: ease .35s;
+    border-color: #00acee;
 }
 
 .tool_title {
     text-align: center;
-    font-size: 20px;
+    font-size: 22px;
     margin-bottom: 20px;
     font-weight: bold;
 }
 
 .tool_image {
-    width: 90%;
+    width: 50%;
     height: auto;
     margin: 0 auto;
     padding: 0 20px;
@@ -175,7 +188,7 @@ header {
 .tool_paragraph {
     display: inline-block;
     text-align: left;
-    margin: 1em auto;
+    margin: 3em auto;
 }
 
 
@@ -233,37 +246,39 @@ header {
     border-radius: 10px;
 }
 
-.hone_wrapper {
+.home_wrapper {
     background: #fff;
     width: 60%;
     margin: 2em auto;
     padding: 2em 0;
 }
 
-.hone_contents-box {
+.home_contents-box {
     display: flex;
     align-items: center;
     margin: 0 auto;
     border: 2px dotted #333;
-    width: 60%;
-    padding: 10px 0;
+    width: 80%;
+    padding: 2em 0;
     justify-content: center;
     padding-right: 30px;
 }
 
-.hone_contents-box {
+.home_contents-box {
+    display: flex;
+    flex-direction: column;
     margin-bottom: 2em;
 }
 
-.hone_contents-box:last-child {
+.home_contents-box:last-child {
     margin-bottom: 0;
 }
 
-.hone_box-head {
+.home_box-head {
     margin-left: 2em;
 }
 
-.hone_box-txt {
+.home_box-txt {
     margin-left: 2em;
     font-size: 17px;
 }
@@ -288,7 +303,7 @@ header {
     background: #555;
     text-align: center;
     margin: 2em auto;
-    width: 30%;
+    width: 15%;
     padding: 5px 0;
     color: #fff;
     border-radius: 7px;
@@ -302,9 +317,10 @@ header {
 .home_movie-col1 {
     display: flex;
     flex-direction: column;
-    margin: 1em auto;
+    margin: 2em auto;
     background: #ccc;
     padding: 20px 30px;
+    border-radius: 20px;
 }
 
 .home_movie-title {
@@ -405,7 +421,7 @@ header {
 .works_video-title {
     font-size: 30px;
     font-weight: bold;
-    margin: 2em auto;
+    margin: .8em auto;
 }
 
 /* ーーーーーーーーーーーーーーーーーーーーーーーー */
@@ -423,14 +439,23 @@ header {
     gap: 4em;
 }
 
+.works_col2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    gap: 4em;
+}
+
 .works_col3 {
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    gap: 4em;
 }
 
 .works_col4 {
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    gap: 4em;
 }
 
 /* ーーーーーーーーーーーーーーーーーーーーーーーー */
@@ -439,13 +464,14 @@ header {
 .base_works {
     background: #fff;
     width: 100%;
-    padding: 2em 0;
+    padding: .8em 0;
+    padding-bottom: 3em;
     margin: 0 auto;
-    margin-top: 8em;
+    margin-top: 3em;
 }
 
 .base_works:last-child {
-    margin-bottom: 8em;
+    margin-bottom: 3em;
 }
 
 /* ーーーーーーーーーーーーーーーーーーーーーーーー */
@@ -498,10 +524,30 @@ header {
 
 /* ーーーーーーーーーーーーーーーーーーーーーーーーーー */
 /* price template */
+@media screen and (min-width: 769px) {
+    
+.price_image {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 4em;
+}
 
 .price_template {
     display: block;
+    max-width: 1500px;
+    margin: 0 auto;
 }
+
+.price_item {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 800px;
+} }
 
 .price_template-box {
     text-align: left;
@@ -520,25 +566,31 @@ header {
 .price_image_box {
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    gap: 4em;
+    gap: 10em;
+    padding: 0 20px;
     justify-content: center;
-    align-items: center;
+    align-items: start;
 }
+
 
 .price_label {
     text-align: center;
     font-size: 18px;
     font-weight: 700;
-    margin-top: 1em;
+    margin-bottom: 20px;
 }
 
-.price_image {
-    width: 80%;
+.price_explanation {
+    text-align: left;
+    display: inline-block;
     margin: 0 auto;
-    display: block;
-    margin-bottom: 8em;
 }
 
+
+.price_footer-txt {
+    text-align: center;
+    margin: 2em auto;
+}
 
 /* ーーーーーーーーーーーーーーーーーーーーーーー */
 /* contact */

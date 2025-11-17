@@ -1,0 +1,290 @@
+@charset "utf-8";
+
+@media screen and (max-width: 390px) {
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* header */
+
+header {
+    width: 100%;
+    max-width: 390px;
+    padding: 1.2em 0;
+}
+
+.header_link {
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto 1.2em;
+    font-size: 30px;
+}
+
+.nav_list {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+    gap: 1.2em;
+}
+
+.list_item {
+    font-size: 15px;
+}
+
+.list_item:last-child {
+    text-align: center;
+    margin-right: 0;
+}
+
+.list_link {
+    text-align: center;
+}
+
+/* PROFILE PAGE */
+
+.home_sub-txt {
+    width: 80%;
+}
+
+.profile_head {
+    width: 60%;
+}
+
+.profile_image_box {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.profile_box {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.home_list {
+    margin-top: 1.2em;
+}
+
+/* .name_box {} */
+
+.small {
+    font-size: 18px;
+}
+
+/* 資格/スキル一覧 */
+
+.home_intro {
+    width: 60%;
+    font-size: 25px;
+}
+
+.home_wrapper {
+    width: 100%;
+}
+
+.home_contents-box {
+    width: 90%;
+    margin-bottom: 2.5em;
+}
+
+/* .home_box-head {} */
+
+.home_box-txt {
+    font-size: 14px;
+    margin-top: 1.2em;
+}
+
+.home_movie-head {
+    width: 50%;
+}
+
+.home_movie-col1 {
+    width: 100%;
+    border-radius: 0;
+}
+
+/* .home_movie-title {} */
+
+.home_movie-col1 video {
+    width: 100vw;
+    max-width: 100vw;
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+}
+
+.home_movie-txt {
+    width: 90%;
+}
+
+.status_box {
+    width: 100%;
+}
+
+.status_txt {
+    width: 70%;
+}
+
+/* .grid_col6 {} */
+
+.tool_title {
+    font-size: 30px;
+}
+
+/* .tool_image {} */
+
+.tool_paragraph {
+    width: 90%;
+}
+
+/* columns */
+
+.col1,
+.col2,
+.col3,
+.col4,
+.col5,
+.col6 {
+    width: 100%;
+    border-radius: 0;
+}
+
+.col5 {
+    display: block;
+}
+
+.col5 .tool_paragraph {
+    text-align: left;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+/* WORKS PAGE */
+
+/* .works {} */
+
+/* .works_box {} */
+
+/* .works_head {} */
+
+/* .works_txt {} */
+
+.works_sub-txt{
+    width: 80%;
+}
+
+
+/* works_section */
+
+.works_section {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.base_works {
+    width: 100%;
+    margin: 0;
+}
+
+.works_streamer-name, 
+.works_practice-video {
+    font-size: 18px;
+    margin: .3em 0 .7em;
+    text-align: center;
+}
+
+/* .works_col1,
+.works_col2,
+.works_col3,
+.works_col4 {} */
+
+.works_video-box {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* .works_video-title {} */
+
+.works_video {
+    width: 100vw;
+    max-width: 100vw;
+    margin-right: calc(50% - 50vw);
+    margin-left: calc(50% - 50vw);
+}
+
+/* PRICE PAGE */
+
+.price_sub-txt {
+    width: 90%;
+}
+
+.price_image_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* .price_item {} */
+
+.price_image {
+    width: 100%;
+    max-width: 390px;
+}
+
+.price_label {}
+
+.price_explanation {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.price_footer-txt {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* footer */
+
+footer {
+    width: 100%;
+    max-width: 390px;
+    padding: 1.2em 0;
+}
+
+.footer_jump-link {
+    width: 80%;
+    text-align: center;
+    margin: 1.2em auto;
+    font-size: 30px;
+}
+
+.footer_list {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 1.2em;
+}
+
+.footer_item {
+    text-align: center;
+}
+
+.footer_item:last-child {
+    text-align: center;
+    margin-right: 0;
+}
+
+.footer_link {
+    font-size: 15px;
+}
+
+/* .copyright {} */ } 
