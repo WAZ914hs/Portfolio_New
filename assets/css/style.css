@@ -518,8 +518,18 @@ header {
 }
 
 .price_image_box {
-    display: flex;
-    flex-direction: column;    
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 4em;
+    justify-content: center;
+    align-items: center;
+}
+
+.price_label {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 1em;
 }
 
 .price_image {
@@ -720,4 +730,12 @@ footer {
 .footer_link:hover {
     color: #00acee;
     transition: ease .35s;
+}
+
+.copyright {
+    text-align: center;
+    margin: 1em auto;
+    width: 100%;
+    color: #aaa;
+    letter-spacing: 1px;
 }
