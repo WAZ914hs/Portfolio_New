@@ -363,6 +363,11 @@ header {
     color: #fff;
 }
 
+.home_link:hover {
+    color: #00acee;
+    transition: ease .35s;
+}
+
 /* ーーーーーーーーーーーーーーーーーーーーーーーーーー */
 /* WORKS PAGE */
 
@@ -407,6 +412,8 @@ header {
 .works_streamer-name {
     text-align: center;
     margin: 2em auto;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .works_video-box,
@@ -479,7 +486,9 @@ header {
 
 .works_practice-video {
     text-align: center;
-    margin: 0 auto;
+    margin: 2em auto;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 /* ーーーーーーーーーーーーーーーーーーーーーーーー */
