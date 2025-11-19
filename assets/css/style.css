@@ -418,6 +418,13 @@ header {
     margin: 0 auto;
 }
 
+.works_message {
+    text-align: left;
+    display: inline-block;
+    margin: 1em 0 0 44rem;
+    line-height: 1.7;
+}
+
 /* ーーーーーーーーーーーーーーーーーーーーーーーーー */
 /* works_section" */
 
