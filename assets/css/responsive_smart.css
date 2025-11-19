@@ -55,6 +55,7 @@ header {
 
 .profile_head {
     width: 60%;
+    margin-bottom: 1em;
 }
 
 .profile_image_box {
@@ -78,6 +79,24 @@ header {
 
 .small {
     font-size: 18px;
+}
+
+.profile_intro {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 1em;
+    width: 90%;
+}
+
+.profile_list {
+    list-style: none;
+}
+
+.profile_item {
+    margin-top: 1.2em;
+    font-size: 17px;
+    font-weight: bold;
 }
 
 /* 資格/スキル一覧 */
