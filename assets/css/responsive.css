@@ -238,12 +238,28 @@ header {
     width: 90%;
 }
 
-/* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
+/* ーーーーーーーーーーーーーーーーーーーーー */
 /* contact */
 
 .contact_sub-txt {
     width: 80%;
 }
+
+/* ーーーーーーーーーーーーーーーーーーーーー */
+/* alert_box */
+
+.contact_alert {
+    width: 100%;
+    max-width: 768px;
+}
+
+.alert_txt {
+    width: 80%;
+    max-width: 768px;
+}
+
+/* ーーーーーーーーーーーーーーーーーーーーー */
+/* form */
 
 .form {
     width: 80%;
@@ -265,7 +281,7 @@ textarea {
     border-radius: 50px;
 }
 
-/* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
+/* ーーーーーーーーーーーーーーーーーーーー */
 /* footer */
 
 footer {

@@ -672,6 +672,34 @@ header {
 /* ーーーーーーーーーーーーーーーーーーーーーーーーー */
 /* form */
 
+.contact_alert {
+    background: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    padding: 2em 0;
+    border-bottom: 2px dotted #333;
+}
+
+.alert_txt {
+    text-align: left;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.alert_list {
+    list-style: none;
+    margin-top: 1em;
+}
+
+.alert_item {
+    margin-top: 1.2em;
+    font-size: 17px;
+}
+
+
+/* ーーーーーーーーーーーーーーーーーーーーーーーーー */
+/* form */
+
 .form {
     background: #ccc;
     width: 40%;
