@@ -412,6 +412,11 @@ header {
     margin-top: 1em;
 }
 
+.works_txt-box {
+    display: flex;
+    flex-direction: column;
+}
+
 .works_sub-txt {
     text-align: left;
     display: inline-block;

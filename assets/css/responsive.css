@@ -168,6 +168,26 @@ header {
 /* ーーーーーーーーーーーーーーーーーーーー */
 /* WORKS PAGE */
 
+/* works profile */
+
+.works_txt-box {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.works_sub-txt {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.works_message {
+    margin-left: 30px;
+}
+
+/* works section */
+
 .works_section {
     width: 90%;
     margin: 0 auto;

@@ -200,6 +200,23 @@ header {
     width: 80%;
 }
 
+/* works profile */
+
+.works_txt-box {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.works_sub-txt {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.works_message {
+    margin-left: 30px;
+    width: 80%;
+}
 
 /* works_section */
 
