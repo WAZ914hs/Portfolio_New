@@ -681,6 +681,7 @@ header {
 }
 
 .alert_txt {
+    max-width: 750px;
     text-align: left;
     display: inline-block;
     margin: 0 auto;

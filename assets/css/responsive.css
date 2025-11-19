@@ -255,6 +255,7 @@ header {
 
 .alert_txt {
     width: 80%;
+    line-height: 1.7;
     max-width: 768px;
 }
 
@@ -262,17 +263,17 @@ header {
 /* form */
 
 .form {
-    width: 80%;
+    width: 90%;
 }
 
 select,
 .input  {
-    width: 200px;
+    width: 500px;
     padding: 10px 0;
 }
 
 textarea {
-    width: 200px;
+    width: 500px;
     height: 100px;
 }
 
