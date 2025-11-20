@@ -461,6 +461,13 @@ header {
     margin: .8em auto;
 }
 
+.work_tool {
+    text-align: left;
+    display: inline-block;
+    margin: 0 auto;
+    font-size: 17px;
+}
+
 /* ーーーーーーーーーーーーーーーーーーーーーーーー */
 /* 各カテゴリー別カラムの指定 */
 
