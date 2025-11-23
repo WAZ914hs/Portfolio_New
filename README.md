@@ -1,5 +1,11 @@
-# Portfolio_New
+# Portfolio_New - Web制作ポートフォリオ
 portfolio Web page
+
+■ 公開サイト（GitHub Pages）
+https://WAZ914hs.github.io/Portfolio_New/
+
+■ GitHubリポジトリ
+https://github.com/WAZ914hs/Portfolio_New
 
 # Portfolio_New
 
@@ -14,7 +20,7 @@ HTML / CSS / JavaScript を用いて構築しており、動画制作やWebデ�
 - `home.html` : プロフィール / 制作概要  
 - `works.html` : 動画制作実績  
 - `price.html` : 料金表  
-- `contact.html` : お問い合わせフォーム（EmailJS連携）
+- `contact.html` : お問い合わせフォーム（EmailJS連携(フォーム送信)）
 
 ---
 
